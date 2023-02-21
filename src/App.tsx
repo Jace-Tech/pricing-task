@@ -9,7 +9,11 @@ import Experience from "./partials/Experience/Experience"
 
 const App = () => {
   return (
-    <Box minH={"100vh"} position={"relative"}>
+    <Box 
+      minH={"100vh"}
+      position={"relative"}
+      overflowX={"hidden"}
+    >
       <Header />
       <Hero />
       <Service />
