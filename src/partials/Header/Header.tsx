@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = () => {
   const { isOpen: isNavOpen, onClose: onNavClose, onOpen: onNavOpen } = useDisclosure()
 
   return (
-    <>
+    <Box overflowX={"hidden"}>
       <Box
         as={"header"}
         py={[6, 6, 3]}
@@ -210,7 +210,7 @@ const Header: React.FC<HeaderProps> = () => {
         isOpen={isNavOpen}
         onClose={onNavClose}
       />
-    </>
+    </Box>
   )
 }
 
