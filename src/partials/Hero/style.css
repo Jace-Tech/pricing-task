@@ -1,0 +1,10 @@
+.service_select__control {
+  flex: 1;
+  min-width: 250px;
+  padding: .6rem 1rem;
+  border-radius: 6px !important;
+}
+
+.service_select__indicator-separator {
+  display: none !important;
+}
